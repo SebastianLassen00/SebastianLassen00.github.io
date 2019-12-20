@@ -2,10 +2,13 @@ let myImage = document.querySelector('img');
 
 myImage.onclick = function(){
     let mySrc = myImage.getAttribute('src');
+    let myAlt = myImage.getAttribute('alt');
     if(mySrc === 'images/pikachu.png'){
         myImage.setAttribute('src', 'images/pikachuChristmas.png');
+        myImage.setAttribute('alt', 'Pikachu-Dio mashup with a christmas hat');
     } else{
         myImage.setAttribute('src', 'images/pikachu.png');
+        myImage.setAttribute('alt', 'Pikachu-Dio mashup');
     }
 }
 

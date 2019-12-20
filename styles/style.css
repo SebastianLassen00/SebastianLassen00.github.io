@@ -43,3 +43,8 @@ a {
 a:hover {
     color: gray;
 }
+
+footer > p {
+    padding: 10px;
+    font-size: 8px;
+}
