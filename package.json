@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/SebastianLassen00/SebastianLassen00.github.io/issues"
   },
-  "homepage": "https://github.com/SebastianLassen00/SebastianLassen00.github.io#readme"
+  "homepage": "https://github.com/SebastianLassen00/SebastianLassen00.github.io#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
 }

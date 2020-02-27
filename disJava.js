@@ -1,18 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fetch and graph CSV</title>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
-</head>
-
-<body>
-
-    <canvas id="canvas" width="800" height="400"></canvas>
-
-    <script>
+ const fetch = require("node-fetch");
         const xLabels = [];
         const yData = [];
 
@@ -53,7 +39,7 @@
 
         async function getData() {
             //const response = await fetch('save.csv');
-            const response = await fetch('https://cors-anywhere.herokuapp.com/https://data.giss.nasa.gov/gistemp/tabledata_v4/ZonAnn.Ts+dSST.csv');
+            const response = await fetch('https://data.giss.nasa.gov/gistemp/tabledata_v4/ZonAnn.Ts+dSST.csv');
             const data = await response.text();
 
             //Slicing the first row, as it is only meaningful for humans
@@ -71,7 +57,3 @@
             //console.log(rows);
 
         }
-    </script>
-</body>
-
-</html>
