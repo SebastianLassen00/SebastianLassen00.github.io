@@ -1,0 +1,19 @@
+{
+  "name": "sebastianlassen00.github.io",
+  "version": "1.0.0",
+  "description": "Test website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SebastianLassen00/SebastianLassen00.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SebastianLassen00/SebastianLassen00.github.io/issues"
+  },
+  "homepage": "https://github.com/SebastianLassen00/SebastianLassen00.github.io#readme"
+}
